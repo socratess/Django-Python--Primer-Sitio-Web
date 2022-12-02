@@ -21,8 +21,7 @@ def password(request) :
              characters.extend(list('1234567890'))         
              
     print("hello")
-    print("hello")
-    print("hello")
+   
            
     for x in range(length):
         generated_password += random.choice(characters)
@@ -46,8 +45,7 @@ def password(request) :
              characters.extend(list('1234567890'))         
              
     print("hello")
-    print("hello")
-    print("hello")
+    
            
     for x in range(length):
         generated_password += random.choice(characters)
