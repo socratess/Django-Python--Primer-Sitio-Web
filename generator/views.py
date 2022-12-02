@@ -30,7 +30,7 @@ def password(request) :
           
     return render(request, 'generator/password.html',{'password': generated_password})
 
-def passwords(request) :
+def password(request) :
     
     characters = list('abcdefghijklmnopqrstuvwxyz') 
     generated_password = ''
