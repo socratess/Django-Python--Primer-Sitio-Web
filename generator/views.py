@@ -59,7 +59,7 @@ def passwords(request) :
     return render(request, 'generator/password.html',{'password': generated_password})
 
 
-def passwords(request) :
+def passwordes(request) :
     
     characters = list('abcdefghijklmnopqrstuvwxyz') 
     generated_password = ''
