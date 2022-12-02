@@ -21,6 +21,8 @@ def password(request) :
              characters.extend(list('1234567890'))         
     print("hello")
     print("hello1")
+    print("hello")
+    print("hello1")
            
     for x in range(length):
         generated_password += random.choice(characters)
@@ -42,6 +44,8 @@ def passwords(request) :
              characters.extend(list('+-*/,.#$%&/()=?¡@!°'))
     if request.GET.get('numbers'):
              characters.extend(list('1234567890'))         
+    print("hello")
+    print("hello1")
     print("hello")
     print("hello1")
     
