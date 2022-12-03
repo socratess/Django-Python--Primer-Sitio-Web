@@ -27,9 +27,7 @@ def password(request) :
     print("hello1")
     print("hello")
     print("hello1")
-    print("hello")
-    print("hello1")
-    print("hello")
+   
   
    
    
@@ -61,9 +59,7 @@ def passwordss(request) :
     print("hello1")
     print("hello")
     print("hello1")
-    print("hello")
-    print("hello1")
-    print("hello")
+    
    
  
            
