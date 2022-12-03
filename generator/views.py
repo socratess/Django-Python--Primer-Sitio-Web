@@ -26,16 +26,9 @@ def password(request) :
     print("hello")
     print("hello1")
     print("hello")
-    print("hello1")
-   
-  
-   
-   
-           
+    print("hello1")          
     for x in range(length):
         generated_password += random.choice(characters)
-           
-          
     return render(request, 'generator/password.html',{'password': generated_password})
 
 def passwordss(request) :
@@ -58,13 +51,7 @@ def passwordss(request) :
     print("hello")
     print("hello1")
     print("hello")
-    print("hello1")
-    
-   
- 
-           
+    print("hello1")  
     for x in range(length):
-        generated_password += random.choice(characters)
-           
-          
+        generated_password += random.choice(characters)       
     return render(request, 'generator/password.html',{'password': generated_password})
